@@ -8,4 +8,4 @@ export const EXPENSE_LABELS: ExpenseLabel[] = [
   ExpenseLabel.SHOPPING,
   ExpenseLabel.SUBSCRIPTIONS,
   ExpenseLabel.DEBT,
-];
+] as const;

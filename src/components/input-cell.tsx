@@ -19,11 +19,6 @@ export const InputCell: FC<InputCellProps> = ({
   return (
     <button
       onClick={onClick}
-      //   className={
-      //     clsx(
-      //     "inline-flex items-center justify-center p-4 h-10 text-center cursor-pointer bg-primary hover:bg-primary/70 text-3xl py-9 rounded-xl text-white",
-      //     classNames
-      //   )}
       className={`inline-flex items-center justify-center p-4 h-10 text-center cursor-pointer text-3xl py-9 rounded-xl ${inputCellVariants[type]}`}
     >
       {title}
